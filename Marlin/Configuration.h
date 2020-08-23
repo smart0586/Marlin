@@ -21,7 +21,7 @@
  */
 #pragma once
 
-#define CONFIG_EXAMPLES_DIR "delta/FLSUN/QQ-S"
+//#define CONFIG_EXAMPLES_DIR "delta/FLSUN/QQ-S"
 /**
  * Configuration.h
  *
@@ -133,7 +133,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Marlin 2.0.6 QQ-S Pro SKR 1.4"
+#define CUSTOM_MACHINE_NAME "SM Marlin 2.0.6 QQ-S Pro SKR 1.4"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -563,9 +563,9 @@
   //#define DEFAULT_bedKd 1675.16
 
   // FLSUN QQ-S stock 1.6mm aluminium heater with 4mm lattice glass
-  #define DEFAULT_bedKp 121.68
-  #define DEFAULT_bedKi 24.31
-  #define DEFAULT_bedKd 406.00
+  #define DEFAULT_bedKp 87.86
+  #define DEFAULT_bedKi 8.26
+  #define DEFAULT_bedKd 622.96
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
